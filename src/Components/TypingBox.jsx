@@ -116,7 +116,7 @@ const TypingBox = () => {
     focusInput();
   };
 
-
+// function to start the timer once the user starts typing in the typing box
   const startTimer = () => {
     const intervalId = setInterval(timer, 1000);
     setIntervalId(intervalId);
